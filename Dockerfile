@@ -1,4 +1,4 @@
-FROM golang:1.21-buster AS builder-mc
+FROM jumpserver/golang:1.21-buster AS builder-mc
 ARG TARGETARCH
 ARG MC_VERSION=RELEASE.2023-10-30T18-43-32Z
 
